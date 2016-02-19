@@ -24,6 +24,7 @@
 		3B0FCB881C777D1300CFE98D /* RNAudioPlayerURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0FCB871C777D1300CFE98D /* RNAudioPlayerURL.m */; };
 		5B62FFBA1C76659A00891089 /* Amatic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B62FFB81C76659A00891089 /* Amatic-Bold.ttf */; };
 		5B62FFBB1C76659A00891089 /* AmaticSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B62FFB91C76659A00891089 /* AmaticSC-Regular.ttf */; };
+		5B62FFBE1C777CF600891089 /* RNAudioPlayerURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B62FFBD1C777CF600891089 /* RNAudioPlayerURL.m */; };
 		5BC289F01C74EB4C00BA9428 /* libRCTLinking.a in Sources */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
@@ -132,6 +133,8 @@
 		3B0FCB871C777D1300CFE98D /* RNAudioPlayerURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNAudioPlayerURL.m; path = "../node_modules/react-native-ios-network-audio/RNAudioPlayerURL.m"; sourceTree = "<group>"; };
 		5B62FFB81C76659A00891089 /* Amatic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amatic-Bold.ttf"; sourceTree = "<group>"; };
 		5B62FFB91C76659A00891089 /* AmaticSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Regular.ttf"; sourceTree = "<group>"; };
+		5B62FFBC1C777CF600891089 /* RNAudioPlayerURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAudioPlayerURL.h; sourceTree = "<group>"; };
+		5B62FFBD1C777CF600891089 /* RNAudioPlayerURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAudioPlayerURL.m; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -240,6 +243,8 @@
 		13B07FAE1A68108700A75B9A /* ChirpAlert */ = {
 			isa = PBXGroup;
 			children = (
+				5B62FFBC1C777CF600891089 /* RNAudioPlayerURL.h */,
+				5B62FFBD1C777CF600891089 /* RNAudioPlayerURL.m */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
