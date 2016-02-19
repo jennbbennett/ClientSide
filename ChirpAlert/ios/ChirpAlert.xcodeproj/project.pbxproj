@@ -21,6 +21,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		3B0FCB881C777D1300CFE98D /* RNAudioPlayerURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0FCB871C777D1300CFE98D /* RNAudioPlayerURL.m */; };
 		5B62FFBA1C76659A00891089 /* Amatic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B62FFB81C76659A00891089 /* Amatic-Bold.ttf */; };
 		5B62FFBB1C76659A00891089 /* AmaticSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B62FFB91C76659A00891089 /* AmaticSC-Regular.ttf */; };
 		5BC289F01C74EB4C00BA9428 /* libRCTLinking.a in Sources */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
@@ -127,6 +128,8 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ChirpAlert/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ChirpAlert/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		3B0FCB861C777D1300CFE98D /* RNAudioPlayerURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNAudioPlayerURL.h; path = "../node_modules/react-native-ios-network-audio/RNAudioPlayerURL.h"; sourceTree = "<group>"; };
+		3B0FCB871C777D1300CFE98D /* RNAudioPlayerURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNAudioPlayerURL.m; path = "../node_modules/react-native-ios-network-audio/RNAudioPlayerURL.m"; sourceTree = "<group>"; };
 		5B62FFB81C76659A00891089 /* Amatic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amatic-Bold.ttf"; sourceTree = "<group>"; };
 		5B62FFB91C76659A00891089 /* AmaticSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Regular.ttf"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
@@ -242,6 +245,8 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
+				3B0FCB861C777D1300CFE98D /* RNAudioPlayerURL.h */,
+				3B0FCB871C777D1300CFE98D /* RNAudioPlayerURL.m */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
@@ -554,6 +559,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				5BC289F01C74EB4C00BA9428 /* libRCTLinking.a in Sources */,
+				3B0FCB881C777D1300CFE98D /* RNAudioPlayerURL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
